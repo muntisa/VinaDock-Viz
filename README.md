@@ -2,7 +2,8 @@
 
 > _Interactive 3D visualization of AutoDock Vina molecular docking results — directly in your browser._
 
-![AutoDock Vina](https://img.shields.io/badge/AutoDock-Vina-58a6ff?style=flat-square) ![3D WebGL](https://img.shields.io/badge/3D-WebGL-3fb950?style=flat-square) ![Cross-platform](https://img.shields.io/badge/Platform-Browser_Independent-orange?style=flat-square) ![MIT License](https://img.shields.io/badge/License-MIT-d29922?style=flat-square) ![100% Local](https://img.shields.io/badge/%F0%9F%94%92-100%25_Local-3fb950?style=flat-square)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-VinaDock_Viz-58a6ff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIgMTJjMC01LjUyIDQuNDgtMTAgMTAtMTBzMTAgNC40OCAxMCAxMC00LjQ4IDEwLTEwIDEwUzIgMTcuNTIgMiAxMnptMiAwYzAtNC40MSAzLjU5LTggOC04czggMy41OSA4IDgtMy41OSA4LTggOC04IDguNTktOCA4LjV6Ii8+PC9zdmc+)](https://muntisa.github.io/VinaDock-Viz/VinaDock_Viz.html) ![AutoDock Vina](https://img.shields.io/badge/AutoDock-Vina-3fb950?style=flat-square) ![3D WebGL](https://img.shields.io/badge/3D-WebGL-58a6ff?style=flat-square) ![Cross-platform](https://img.shields.io/badge/Platform-Browser_Independent-orange?style=flat-square) ![MIT License](https://img.shields.io/badge/License-MIT-d29922?style=flat-square) ![100% Local](https://img.shields.io/badge/%F0%9F%94%92-100%25_Local-3fb950?style=flat-square)
+
 
 Your files never leave your computer. Just load the receptor and the Vina docking output file with all the ligand poses (all in pdbqt).
 
@@ -40,28 +41,21 @@ Your files never leave your computer. Just load the receptor and the Vina dockin
 
 ---
 
-## Quick Start
+### Option 1: Use the Web Version (Recommended)
 
-### Option 1: Open Directly in Browser
+Open the tool directly in your browser — no installation needed:
 
-1. Download [`VinaDock_Viz.html`](VinaDock_Viz.html) from this repository
-2. Double-click the file or drag it into your browser
-3. Upload your receptor and ligand pose files
+**[https://muntisa.github.io/VinaDock-Viz/VinaDock_Viz.html](https://muntisa.github.io/VinaDock-Viz/VinaDock_Viz.html)**
 
-### Option 2: Use as a Local Web Server (for best performance)
+### Option 2: Use It Locally (Offline)
 
-```bash
-# Python 3
-python3 -m http.server 8080
+You can also download the file and run it from your own computer, without needing internet:
 
-# Then open http://localhost:8080/VinaDock_Viz.html
-```
+1. Download [`VinaDock_Viz.html`](VinaDock_Viz.html) from this repository (click the file, then the **Raw** button, right-click and **Save As**)
+2. Open the file by double-clicking it — it will open in your default browser
+3. Upload your receptor and ligand pose files directly from your computer
 
-### Option 3: Host on GitHub Pages
-
-1. Fork or clone this repository
-2. Enable GitHub Pages in Settings → Pages → Source: `main` branch
-3. Access at `https://yourusername.github.io/VinaDock-Viz/VinaDock_Viz.html`
+> **Note:** The local version works offline after the first load (the 3D viewer library is loaded from a CDN on first use).
 
 ---
 
