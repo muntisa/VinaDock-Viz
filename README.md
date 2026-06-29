@@ -169,6 +169,12 @@ The interaction detection engine uses the following distance thresholds, verifie
 
 ---
 
+## References
+
+VinaDock Viz was used in the project hosted at [https://autodockvina.com/results](https://autodockvina.com/results).
+
+---
+
 ## Privacy
 
 Your data stays on your computer. VinaDock Viz is a client-side application that:
